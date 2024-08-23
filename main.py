@@ -29,7 +29,7 @@ if "chat_history" not in st.session_state:
 
 # streamlit page title
 st.title("🦙 LLAMA 3.1. ChatBot ")
-st.header("made by Anmol Badhan")
+st.header("made by Anmol Badhan and Harjot")
 
 # display chat history
 for message in st.session_state.chat_history:
